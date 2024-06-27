@@ -95,9 +95,7 @@
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
-        <properties>
-          <text value=""/>
-        </properties>
+        <properties/>
       </component>
     </children>
   </grid>

@@ -13,6 +13,14 @@ public class VistaEquipo {
     private JComboBox<String> comboBoxEquipos;
     private JTextField textFieldRanking;
     private List<Equipo> equipos;
+    private JPanel panel1;
+    private JButton playersButton;
+    private JButton exitButton;
+    private JComboBox comboBox1;
+    private JTextPane textPane2;
+    private JTextPane textPane3;
+    private JTextPane textPane1;
+    private JTextPane textPane4;
 
     public VistaEquipo() {
         equipos = InfoJugador.cargarEquipos();

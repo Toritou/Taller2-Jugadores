@@ -10,6 +10,11 @@ import java.awt.event.ActionListener;
 public class VistaJugadores {
     private JFrame frame;
     private JTable tableJugadores;
+    private JButton editPlayerButton;
+    private JButton backButton;
+    private JButton saveChangeButton;
+    private JTextPane textPane1;
+    private JTextField playerTextField;
 
     public VistaJugadores(Equipo equipo) {
         initialize(equipo);
